@@ -1,3 +1,5 @@
+RUGWED!!!
+
 ## Fanpy: A Python library for prototyping multideterminant methods in ab initio Electronic Structure Calculations
 
 
