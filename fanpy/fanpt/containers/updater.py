@@ -260,7 +260,7 @@ class FANPTUpdater:
         r"""Assign solver."""
         if solver is None:
             # self.solver = partial(np.linalg.lstsq, rcond=None)
-            self.solver = partial(np.linalg.lstsq, rcond=1e-6)
+            self.solver = partial(np.linalg.lstsq, rcond=1e-4)
 
     def get_responses(self):
         r"""Find the responses up to the final order.
